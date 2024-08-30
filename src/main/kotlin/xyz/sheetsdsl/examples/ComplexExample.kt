@@ -8,7 +8,7 @@ import xyz.sheetsdsl.HorizontalAlignmentDsl.RIGHT
 import xyz.sheetsdsl.VerticalAlignmentDsl.MIDDLE
 import java.awt.Color.*
 
-fun main() {
+internal fun main() {
     val spreadsheet = spreadsheet("Generated Spreadsheet") {
         sheet("First") {
             row {

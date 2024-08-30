@@ -2,7 +2,7 @@ package xyz.sheetsdsl.examples
 
 import com.google.api.services.sheets.v4.model.Spreadsheet
 
-fun main() {
+internal fun main() {
     val spreadsheet: Spreadsheet = spreadsheet {
         sheet {
             row {
